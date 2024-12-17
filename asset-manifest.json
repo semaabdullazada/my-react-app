@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/css/main.b7514dc0.css",
+    "main.js": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/js/main.1845c446.js",
+    "static/media/Film.png": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/media/Film.eaf6e9a7f719a3ba6eec.png",
+    "static/media/deleteButton.png": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/media/deleteButton.6113071412906ba1bb21.png",
+    "index.html": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/index.html",
+    "main.b7514dc0.css.map": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/css/main.b7514dc0.css.map",
+    "main.1845c446.js.map": "/istifad%C9%99%C3%A7i_ad%C4%B1/my-react-app/static/js/main.1845c446.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7514dc0.css",
+    "static/js/main.1845c446.js"
+  ]
+}
