@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.search {
+  margin: 20px;
+}
+
+.movie-list,
+.selected-movies {
+  margin: 20px;
+}
+
+.movie-card, .selected-movie {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}

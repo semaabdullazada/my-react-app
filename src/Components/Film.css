@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.movie-list{
+margin: 20px;
+}
+
+.movie-card {
+margin: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+width: 50vw;
+display: flex;
+justify-content: space-around;
+}
+.header{
+    display: flex;
+}
+.left-side{
+    width: 100%;
+    background-color:rgb(113, 113, 197) ;
+    height: 18vh;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.right-side{
+    background-color:rgb(113, 113, 197) ;
+    padding-right: 10%;
+    padding-top: 3%;
+    display: flex;
+}
+.search-input{
+    padding: 10px;
+    border-radius: 8px;
+    border-color: none;
+    width: 10vw;
+    height: 5vh;
+}
+.searchB{
+    width: 50px;
+    height: 50px;
+    margin-top: -8px;
+  }
+.icon{
+    width: 8vw;
+    padding-top: 10px;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.about-film{
+    margin-right: 50px;
+    /* margin-top: 50px; */
+    display: grid;
+}
+.add{
+    background-color: blueviolet;
+    color: white;
+    font-size:20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.film-data{
+    margin-top: 80px;
+}
+
+button{
+    height: 40px;
+    margin: 8px;
+}
+.secondB{
+    width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.add-section{
+    margin-right: 40px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 30%;
+    text-align:center;
+    height: 50vh;    
+    overflow-y: auto; 
+    box-sizing: border-box; 
+    position: relative;
+    
+}
+
+.add:disabled {
+    background-color: #a0a0a0;
+    opacity: 0.6;            
+  }
+  .custom-list {
+    list-style-position: inside; 
+  }
+  li{
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 90%;
+    padding-right: 30px;
+  }
+  .custom-list li {
+    position: relative;
+    align-items: end;
+    
+    overflow-y: auto;  
+    box-sizing: border-box; 
+
+  }
+  
+  .deleteB {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  .input-info {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .input-info-left{
+    align-self: start; 
+  }
+  .input-info-right {
+    background-color: #ccc;
+    margin-bottom: 0px;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 20px;
+    
+    position: sticky;
+    bottom: 0;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #ccc;
+  }
+  .input-info-right:hover{
+    background-color: #4caf50;
+  }
+  .list-name{
+    border-radius: 8px;
+    height: 30px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    position: relative;
+    border-color: #333;
+  }
+
+  .add-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }  
+  .saved-list{
+    border: #ccc;
+  }
