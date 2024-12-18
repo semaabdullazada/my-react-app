@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.70724321.css",
-    "main.js": "/my-react-app/static/js/main.018fd9cf.js",
-    "static/media/Film.png": "/my-react-app/static/media/Film.eaf6e9a7f719a3ba6eec.png",
-    "static/media/deleteButton.png": "/my-react-app/static/media/deleteButton.6113071412906ba1bb21.png",
-    "index.html": "/my-react-app/index.html",
-    "main.70724321.css.map": "/my-react-app/static/css/main.70724321.css.map",
-    "main.018fd9cf.js.map": "/my-react-app/static/js/main.018fd9cf.js.map"
+    "main.css": "/FinalTaskR/static/css/main.70724321.css",
+    "main.js": "/FinalTaskR/static/js/main.75962d11.js",
+    "static/media/Film.png": "/FinalTaskR/static/media/Film.eaf6e9a7f719a3ba6eec.png",
+    "static/media/deleteButton.png": "/FinalTaskR/static/media/deleteButton.6113071412906ba1bb21.png",
+    "index.html": "/FinalTaskR/index.html",
+    "main.70724321.css.map": "/FinalTaskR/static/css/main.70724321.css.map",
+    "main.75962d11.js.map": "/FinalTaskR/static/js/main.75962d11.js.map"
   },
   "entrypoints": [
     "static/css/main.70724321.css",
-    "static/js/main.018fd9cf.js"
+    "static/js/main.75962d11.js"
   ]
 }
