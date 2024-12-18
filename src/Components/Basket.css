@@ -1,0 +1,12 @@
+.film-poster{
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+}
+.container-list{
+    margin-left: 20px;
+}
+.header-text{
+    padding-left: 0px;
+    color:  rgb(113, 113, 197);
+}

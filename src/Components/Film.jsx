@@ -72,12 +72,12 @@ function Film() {
     setFavorites([]);
     setListName('');
   };
-  const goToBasket = () => {
-    if (favorites) {
-      navigate('/basket', { state: { favorites: favorites } });
+  const goToBasket = (list) => {
+    if (list.movies.length > 0) {
+      navigate('/basket', { state: { favorites: list.movies, listName: list.name } });
     }
   };
-
+    
 
   return (
     <>
@@ -158,12 +158,16 @@ function Film() {
           <div className='input-info-right' onClick={saveButton}>Save</div>
 
           <div className="saved-lists">
-            {savedLists.map((list, index) => (
-              <div key={index} className="saved-list">
-                <h2>{list.name} <button className='add' onClick={goToBasket}>Go to basket</button></h2>
-              </div>
-            ))}
-          </div>
+  {savedLists.map((list, index) => (
+    <div key={index} className="saved-list">
+      <h2>
+        {list.name}
+        <button className="add" onClick={() => goToBasket(list)}>Go to basket</button>
+      </h2>
+    </div>
+  ))}
+</div>
+
         </div>
       </div>
     </>
